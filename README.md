@@ -1,5 +1,7 @@
 # SPARKPOST
 
+Cloned from [this repository](https://gitlab.com/mygnu/spark_post).
+
 ## `rust` api for [sparkpost](https://sparkpost.com) email service [UNOFFICIAL]
 
 [![Latest version](https://img.shields.io/crates/v/sparkpost.svg)](https://crates.io/crates/sparkpost)
