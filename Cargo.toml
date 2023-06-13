@@ -1,5 +1,5 @@
 [package]
-name = "sparkpost_rustls"
+name = "sparkpost"
 version = "0.6.0"
 authors = ["mygnu <tech@hgill.io>"]
 keywords = ["email", "sparkpost","reqwest"]
