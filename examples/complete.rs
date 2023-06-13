@@ -3,10 +3,10 @@ extern crate serde_derive;
 extern crate chrono;
 extern crate dotenv;
 extern crate serde;
-extern crate sparkpost;
+extern crate sparkpost_rustls;
 
 use chrono::prelude::*;
-use sparkpost::transmission::{
+use sparkpost_rustls::transmission::{
     Attachment, EmailAddress, Message, Options, Recipient, Transmission,
     TransmissionResponse,
 };

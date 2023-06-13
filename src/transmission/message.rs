@@ -300,7 +300,7 @@ mod test {
                 transactional: true,
                 sandbox: true,
                 inline_css: false,
-                start_time: Some(Utc.ymd(2014, 7, 8).and_hms(9, 10, 11)),
+                start_time: Some(Utc.with_ymd_and_hms(2014, 7, 8, 9, 10, 11).unwrap()),
             },
         );
         let json_value = to_value(email).unwrap();
